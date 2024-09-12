@@ -7,7 +7,7 @@
 		}
 
 		var parseMetadata = metadata => {
-			const {dimensions: dimensionsMap, mainStructureMembers: ,measuresMap } = metadata
+			const {dimensions: dimensionsMap, mainStructureMembers:measuresMap } = metadata
 			const dimensions = []
 			for (const key in dimmensionsMap) {
 				const dimension = dimensionsMap[key]
