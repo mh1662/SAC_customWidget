@@ -50,7 +50,7 @@ var parseMetadata = metadata => {
 
     onCustomWidgetDestroy () {
 
-  }
+  	}
 
     async render () {
       const dataBinding = this.dataBinding
@@ -94,5 +94,5 @@ var parseMetadata = metadata => {
     }
   }
 
-  customElements.define('com.sap.sac.exercise.mhpark', Main)
+  customElements.define('com-sap-sac-exercise-mhpark-main', Main)
 })()
