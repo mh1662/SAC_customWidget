@@ -21,7 +21,7 @@
 			} 
 
 			onCustomWidgetAfterUpdate(changedProps) {
-
+				this.render()
 			}
 
 			onCustomWidgetDestroy () {
